@@ -1,0 +1,29 @@
+name: test_app1  # Nama proyek Flutter.
+description: "A new Flutter project."  # Deskripsi proyek Flutter.
+publish_to: 'none'  # Penyetelan penerbitan.
+version: 0.1.0  # Versi proyek.
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'  # Versi minimum dan maksimum dari SDK Flutter yang dibutuhkan.
+
+dependencies:  # Daftar dependensi yang diperlukan untuk proyek.
+  flutter:
+    sdk: flutter  # Framework utama Flutter untuk membangun aplikasi lintas platform.
+  http: ^0.13.3  # Paket untuk melakukan permintaan HTTP ke server.
+  path: ^1.9.0   # Paket untuk memanipulasi jalur file dan direktori.
+  path_provider: ^2.1.2  # Paket untuk menemukan direktori lokal pada perangkat.
+  sqflite: ^2.0.0+4       # Plugin untuk bekerja dengan database SQLite di aplikasi Flutter.
+  image_picker: ^0.8.4+4  # Paket untuk memilih gambar dari galeri perangkat atau kamera.
+  table_calendar: ^3.1.1  # Widget kalender yang dapat disesuaikan untuk aplikasi Flutter.
+  shared_preferences: ^2.2.3  # Paket untuk menyimpan data primitif ke penyimpanan lokal.
+
+dev_dependencies:  # Daftar dependensi pengembangan yang diperlukan untuk proyek.
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0  # Paket lints untuk Flutter.
+
+flutter:
+  uses-material-design: true  # Pengaturan untuk menggunakan desain material dalam aplikasi.
+  assets:
+    - assets/icon.png  # Daftar aset yang akan diunggah dalam aplikasi.
+    - assets/icon2.png  # Menambahkan gambar icon2.png ke daftar aset yang akan diunggah dalam aplikasi
