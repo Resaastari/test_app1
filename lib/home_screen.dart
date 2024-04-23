@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:test_app1/screens/news_screen.dart';
 import 'package:test_app1/screens/crud.dart';
 import 'package:test_app1/profile/profile_screen.dart';
+import 'package:test_app1/screens/routes/DatasScreen/datas_screen.dart';
 import 'database_helper.dart';
 import 'note_model.dart';
 import 'create_note_screen.dart';
@@ -152,9 +153,21 @@ class _HomeScreenState extends State<HomeScreen> {
                 );
               },
             ),
+
+            ListTile(
+              title: const Text(
+                  'DatasScreen'), // Ganti dengan nama_alias kelas Anda
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => DatasScreen()),
+                );
+              },
+            ),
           ],
         ),
       ),
+
       // Gunakan Stack untuk menempatkan latar belakang dan konten di atasnya
       body: Stack(
         children: [

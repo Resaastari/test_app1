@@ -15,4 +15,8 @@ class DataService {
       throw Exception('Failed to load news');
     }
   }
+
+  static Future<News>? createNews(String title, String body) {}
+
+  static Future<List<dynamic>>? fetchDatas() {}
 }

@@ -16,6 +16,8 @@ dependencies:  # Daftar dependensi yang diperlukan untuk proyek.
   image_picker: ^0.8.4+4  # Paket untuk memilih gambar dari galeri perangkat atau kamera.
   table_calendar: ^3.1.1  # Widget kalender yang dapat disesuaikan untuk aplikasi Flutter.
   shared_preferences: ^2.2.3  # Paket untuk menyimpan data primitif ke penyimpanan lokal.
+  flutter_slidable: ^3.1.0
+  google_fonts: ^4.0.4
 
 dev_dependencies:  # Daftar dependensi pengembangan yang diperlukan untuk proyek.
   flutter_test:
